@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # This script prints special messages for 4th and 8th iterations using if-elif-else
 
-
+i=1
