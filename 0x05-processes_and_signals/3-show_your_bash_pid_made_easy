@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# A Bash script that displays PID and process name of processes matching 'bash'
+# This script displays the PID and name of processes containing "bash" in their name
 
-pgrep -fl "^bash$"
+pgrep -a bash | awk '{print $1, $2}'
