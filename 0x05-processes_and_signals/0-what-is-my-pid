@@ -1,2 +1,2 @@
-#!/bin/bash
+#!/usr/env/bin bash
 echo "$$"
